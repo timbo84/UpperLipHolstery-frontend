@@ -50,7 +50,7 @@ function Home() {
                 <Container>
                     <div className="h1head">
                         <Link to="/" class="navbar-brand align-items-center">
-                            <img src={'/images/upperlip11.png'} height="100" alt="Upper Lip Holstery" />
+                            <img src={'public/images/upperlip11.png'} height="100" alt="Upper Lip Holstery" />
                         </Link>
 
                     </div>
