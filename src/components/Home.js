@@ -50,7 +50,7 @@ function Home() {
                 <Container>
                     <div className="h1head">
                         <Link to="/" class="navbar-brand align-items-center">
-                            <img src={process.env.PUBLIC_URL + '/images/upperlip11.png'} height="100" alt="Upper Lip Holstery" />
+                            <img src={'/images/upperlip11.png'} height="100" alt="Upper Lip Holstery" />
                         </Link>
 
                     </div>
@@ -69,7 +69,7 @@ function Home() {
                                 className="d-sm-flex"
                                 aria-label="Search"
                                 onChange={handleChange} />
-                            <Button id='searchButton' variant="outline-success"><img src={process.env.PUBLIC_URL + '/Images/searchicon.png'} height="20px" alt="Upper Lip Holstery" /></Button>
+                            <Button id='searchButton' variant="outline-success"><img src={'/Images/searchicon.png'} height="20px" alt="Upper Lip Holstery" /></Button>
                             {authLink()}
                         </Form>
                     </Col>
